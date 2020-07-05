@@ -1,52 +1,44 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Google</title>
+	<title>My Website</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<ul style="margin-top:25px;"> 
-    <li><a href="#">About</a></li>
-    <li><a href="#">Store</a></li>
-    <li style="float:right"><button class="login" style="margin-top: -10px;">Sign in</button></li>
-    <li style="float:right"><a href="#">Images</a></li>
-    <li style="float:right"><a href="#">Gmail</a></li>
-</ul>
+	<ul class="navbar">
+		<li class="navbar-link" style="float:left;"><a href="#">About</a></li>
+		<li class="navbar-link" style="float:left;"><a href="#">Store</a></li>
+		<li class="navbar-link" style="float:right;margin-right: 20px;"><a href="#">Images</a></li>
+		<li class="navbar-link" style="float:right;"><a href="#">Gmail</a></li>
+	</ul>
 
-<div class="logo">
-    <img src="googlelogo.png">  
-</div>
+	<div class="main">
+	<img src="logo.png" title="Google Logo" alt="Google Logo" class="image">
+	</div>
+	<div class="search">
+	<input type="text" name="search" class="searchbar" style="text-align: center;">
+	</div>
 
-
-
-<div class="searchbar">
-<form>
-    <input type="text" class="search">
-</form>
-</div>
-<div class="buttonbox">
-    <ul>
-    <button class="buttons" style="float: left;">Google Search</button>
-    <button class="buttons" style="float: right;">I'm Feeling Lucky</button>
-    </ul>
-</div>
+	<div class="buttonbox">
+		<center>
+		<button class="button">Google Search</button>
+		<button class="button">I'm Feeling Lucky</button>
+		</center>
+	</div>
 
 
-<footer>
-    <div class="footer">
-        <ul style="margin-top: 10px;margin-left: 5px;margin-right:10px;"> 
-            <li style="float:left"><a href="#">Advertising</a></li>
-            <li style="float:left"><a href="#">Business</a></li>
-            <li style="float:left"><a href="#">How Search Works</a></li>
-            <li style="float:right"><a href="#">Settings</a></li>
-            <li style="float:right"><a href="#">Terms</a></li>
-            <li style="float:right"><a href="#">Privacy</a></li>
-        </ul>
-    </div>
-</footer>
+	<footer>
+		<ul class="footer">
+		<li class="navbar-link" style="float:left;"><a href="#">Advertising</a></li>
+		<li class="navbar-link" style="float:left;"><a href="#">Business</a></li>
+		<li class="navbar-link" style="float:left;"><a href="#">How Search Works</a></li>
+		<li class="navbar-link" style="float:right;margin-right: 15px;"><a href="#">Settings</a></li>
+		<li class="navbar-link" style="float:right;"><a href="#">Terms</a></li>
+		<li class="navbar-link" style="float:right;"><a href="#">Privacy</a></li>
+	</ul>
+	</footer>
 
 
 </body>
